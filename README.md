@@ -2,6 +2,7 @@
 ![Network Diagram](network-diagram.png)
 
 Inter‑VLAN Routing (ROAS) + Multi‑Switch VLAN Network
+
 📌 Project Overview
 This project demonstrates a full Layer 2 + Layer 3 enterprise‑style network using:
 
