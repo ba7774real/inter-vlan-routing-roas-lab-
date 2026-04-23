@@ -1,6 +1,16 @@
 ## 🖼️ Network Diagram
 ![Network Diagram](network-diagram.png)
 
+# My Network Lab
+
+## 🖼️ Network Diagram
+![Network Diagram](network-diagram.png)
+
+## 📁 Configuration Files
+- [Router Configuration](configs/router.txt)
+- [SW1 Configuration](configs/sw1.txt)
+- [SW2 Configuration](configs/sw2.txt)
+
 
 Inter‑VLAN Routing (ROAS) + Multi‑Switch VLAN Network
 📌 Project Overview
