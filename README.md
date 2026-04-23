@@ -1,5 +1,5 @@
 ## 🖼️ Network Diagram
-![Network Diagram](topology.png)
+![Network Diagram](network-dagram.png)
 
 Inter‑VLAN Routing (ROAS) + Multi‑Switch VLAN Network
 📌 Project Overview
