@@ -1,12 +1,5 @@
 ## 🖼️ Network Diagram
 ![Network Diagram](network-diagram.png)
-
-# My Network Lab
-
-## 🖼️ Network Diagram
-![Network Diagram](network-diagram.png)
-
-## 📁 Configuration Files
 ## 📁 Configuration Files
 - [Router Configuration](configs/router.txt)
 - [SW1 Configuration](configs/sw1.txt)
