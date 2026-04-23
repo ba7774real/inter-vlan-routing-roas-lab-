@@ -53,6 +53,7 @@ interface GigabitEthernet0/0.10
 interface GigabitEthernet0/0.20
  encapsulation dot1Q 20
  ip address 192.168.5.30 255.255.255.0
+ 
 🔀 SW2 – Distribution Switch
 Trunk to Router
 bash
@@ -85,17 +86,20 @@ interface GigabitEthernet1/0/1
 interface GigabitEthernet1/0/3
  switchport mode access
  switchport access vlan 20
+ 
 💻 PC IP Configuration
 PC in VLAN 10
 Code
 IP Address: 192.168.1.2
 Subnet Mask: 255.255.255.0
 Default Gateway: 192.168.1.30
+
 PC in VLAN 20
 Code
 IP Address: 192.168.5.2
 Subnet Mask: 255.255.255.0
 Default Gateway: 192.168.5.30
+
 🧪 Connectivity Testing
 Ping Tests
 From VLAN 10 PC:
@@ -122,6 +126,7 @@ End‑to‑end troubleshooting (ARP, trunks, VLAN membership, routing)
 
 Enterprise‑style Layer 2 + Layer 3 design
 
+
 📘 Lessons Learned
 All switches in the path must carry the same VLANs
 
@@ -132,6 +137,7 @@ Access ports must match the correct VLAN
 PCs must have correct IP + gateway
 
 First ping often fails due to ARP (normal)
+
 
 🚀 Future Improvements
 Add VLAN 30 and extend routing
