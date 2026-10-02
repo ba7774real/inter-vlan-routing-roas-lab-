@@ -34,7 +34,7 @@ g0/0.10 → 192.168.1.30
 
 g0/0.20 → 192.168.5.30
 
-📡 Router Configuration (ROAS) bash interface GigabitEthernet0/0 description Connected to SW2 trunk no ip address no shutdown
+Router Configuration (ROAS) bash interface GigabitEthernet0/0 description Connected to SW2 trunk no ip address no shutdown
 
 interface GigabitEthernet0/0.10 encapsulation dot1Q 10 ip address 192.168.1.30 255.255.255.0
 
